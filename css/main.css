@@ -121,6 +121,10 @@ body a{
 }
 #kontenerOferty #oferty .oferta .element .link .content p{
 	border: 1px solid #fff;
+	transition: background 0.2s ease-in-out;
+}
+#kontenerOferty #oferty .oferta .element .link .content p:hover{
+	background: #3e3e3e;
 }		
 #kontenerOferty #oferty .oferta .element:hover .link{
 	opacity: 0.8;
@@ -129,6 +133,9 @@ body a{
 	text-align: center;
 }#kontenerOferty #oferty #opisOferty p{
 	text-align: justify;
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+	padding: 15px 0;
 }
 
 /* ----------------------------- LOKALIZACJA ----------------------------- */
