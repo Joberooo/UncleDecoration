@@ -1,201 +1,110 @@
 body
 {
-	background-image: url("../img/background.png");
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-position: left top;
-	background-size: cover;
-	margin: 0;
-	padding: 0;
-	color: #FFF;
-	font-size: 20px;
+	background-image: url("../img/background2.png");
 }
-body a{
-	color: #FFF;
-	text-decoration: none;
+
+/* ----------------------------- LOGO ----------------------------- */
+#miniLogo{
+	float: left;
+	margin-left: 100px;
 }
-#kontener{
-	width: 100%;
-	max-width: 1920px;
-	margin: 0 auto;
+#miniLogo #logo{
+	width: 200px;
+	margin: 12.5px auto 0;
+}
+#miniLogo #logo #prostokat{
+	border: 0.5px solid #FFF;
+	width: 200px;
+	height: 100px;
+}
+#miniLogo #logo > p{
+	font-size: 12.5px;
+	letter-spacing: 7.5px;
+	top: -7.5px;
+}
+#miniLogo #logo #prostokat p{
+	font-size: 50px;
+	letter-spacing: 12.5px;
+	margin: 14.5px 0;
 }
 
 /* ----------------------------- MENU ----------------------------- */
 #menu{
-	background: rgba(0, 0, 0, 0.3);
-	position: fixed;
-	display: block;
-	width: 100%;
-	margin: 0 auto;
-	top: 0;
-	 z-index: 100;
+	height: 140px;
 }
-#menu ul{
-	text-align: right;
-	margin: 10px 100px;
+
+/* ----------------------------- NAVBAR ----------------------------- */
+#navBar{
+	width: 20%;
+	min-width: 200px;
+	height: calc(100% - 140px);
+	display: block;
+	background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 50%, rgba(255, 255, 255, 0) 100%);
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}
+#navBar ul{
+	margin: 0;
 	padding: 0;
 }
-#menu ul li{
-	display: inline-block;
-	list-style-type: none;
-	font-size: 25px;
-	margin-left: 20px;
-}
-#menu ul li:hover a{
-	color: #AAA;
-}
-
-/* ----------------------------- LOGO ----------------------------- */
-#logo{
+#navBar ul li{
 	display: block;
-	width: 800px;
-	margin: 50px auto 0;
-}
-#logo #prostokat{
-	border: 1px solid #FFF;
-	width: 800px;
-	height: 400px;
-}
-#logo > p{
-	font-size: 50px;
-	letter-spacing: 30px;
-	text-align: center;
-	text-transform: uppercase;
-	margin: 0;
-	position: relative;
-	top: -30px;
-}
-#logo #prostokat p{
-	font-family: 'Herr Von Muellerhoff', cursive;
-	font-size: 200px;
-	letter-spacing: 50px;
-	text-align: center;
-	margin: 58px 0;
-}
-
-/* ----------------------------- KATEGORIE OFERTY ----------------------------- */
-#kontenerOferty{
-	width: 100;
-	background: rgba(255, 255, 255, 0.1);
-	padding: 20px 0;
-	margin-top: 50px;
-}
-#kontenerOferty #oferty{
-	width: 80%;
-	margin: 0 auto;
-}
-#kontenerOferty #oferty .oferta{
-	display: inline-block;
-	width: 30%;
-	margin: 0 5%;
-	position: relative;
-}
-#kontenerOferty #oferty .oferta:first-child{
-	margin: 0;
-	float: left;
-}
-#kontenerOferty #oferty .oferta:nth-child(3){
-	margin: 0;
-	float: right;
-}
-#kontenerOferty #oferty .oferta img{
-	width: 100%;
-}
-#kontenerOferty #oferty .oferta .element{
-	position: relative;
-}
-#kontenerOferty #oferty .oferta .element .link{
-	position: absolute;
-	display: block;
-	width: 100%;
-	height: calc(100% - 4px);
-	background-color: #000;
-	left: 0px;
-	top: 0px;
-	opacity: 0;
-	transition: opacity 0.2s ease-in-out;
-}
-#kontenerOferty #oferty .oferta .element .link .content{
-	text-align: center;
-	width: 50%;
-	margin: 10% auto;
-	font-size: 20px;
-}
-#kontenerOferty #oferty .oferta .element .link .content p{
-	border: 1px solid #fff;
-	transition: background 0.2s ease-in-out;
-}
-#kontenerOferty #oferty .oferta .element .link .content p:hover{
-	background: #3e3e3e;
-}		
-#kontenerOferty #oferty .oferta .element:hover .link{
-	opacity: 0.8;
-}
-#kontenerOferty #oferty #opisOferty h1{
-	text-align: center;
-}#kontenerOferty #oferty #opisOferty p{
-	text-align: justify;
-	border-top: 1px solid #fff;
-	border-bottom: 1px solid #fff;
-	padding: 15px 0;
-}
-
-/* ----------------------------- LOKALIZACJA ----------------------------- */
-#kontenerLokalizacja{
-	width: 100%;
-	background-color: rgba(0, 0, 0, 0.7);
-	padding: 20px 0;
+	width: calc(100% - 50px);
+	height: 50px;
+	line-height: 50px;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.5);
 	overflow: hidden;
-}
-#kontenerLokalizacja #kolumny{
-	width: 80%;
-	margin: 0 auto;
-}
-#kontenerLokalizacja #kolumny .kolumna{
-	display: inline-block;
-	width: 30%;
-	margin: 0 5%;
-	position: relative;
-	text-align: center;
-	margin-top: 40px
-}
-#kontenerLokalizacja #kolumny .kolumna:nth-child(2) a{
-	font-size: 100px;
-	padding: 10px 0 10px;
-	border: 3px solid #FFF;
-	border-radius: 50%;
-}
-#kontenerLokalizacja #kolumny .kolumna:nth-child(2) a:hover{
-	background: #3557A2;
-}
-#kontenerLokalizacja #kolumny .kolumna:nth-child(3) a{
-	font-size: 100px;
-	padding: 10px 0;
-	border: 3px solid #FFF;
-	border-radius: 50%;
-}
-#kontenerLokalizacja #kolumny .kolumna:nth-child(3) a:hover{
-	background: url("../img/instaBackground.png");
-}
-#kontenerLokalizacja #kolumny .kolumna:first-child{
-	margin: 0;
 	float: left;
-	text-align: left;
-	margin-top: 0;
+	padding-left: 50px;
 }
-#kontenerLokalizacja #kolumny .kolumna:nth-child(3){
-	margin: 40px 0 0;
-	float: right;
+#navBar ul li:hover{
+	background: linear-gradient(90deg, rgba(50, 102, 71, 0.2) 50%, rgba(50, 102, 71, 0) 100%);
 }
-#kontenerLokalizacja #kolumny .kolumna #lokalizacja p{
-	margin-top: 0;
+#navBar ul ul li{
+	width: calc(100% - 100px);
+	padding-left: 100px;
 }
-#kontenerLokalizacja #kolumny .kolumna #lokalizacja p i{
-	margin-right: 10px;
+
+/* ----------------------------- ZAWARTOŚĆ STRONY ----------------------------- */
+#kontener{
+	width: 80%;
+	position: relative;
+	left: 10%;
 }
-#kontenerLokalizacja #kolumny .kolumna #lokalizacja p:nth-child(2) i{
-	visibility: hidden;
+#kontener #zawartosc{
+	width: 80%;
+	margin: 200px auto 0;
 }
-#kontenerLokalizacja #kolumny .kolumna #lokalizacja p:nth-child(3) i{
-	visibility: hidden;
+#kontener #zawartosc #tytul h1::after{
+	content: "";
+	width: 50%;
+	min-width: 450px;
+	border-bottom: 1px solid #fff;
+	display: block;
+}
+#kontener #zawartosc #zdjecia{
+	
+}
+#kontener #zawartosc #zdjecia #zdjecie{
+	width: 25%;
+	display: block;
+	float: left;
+	margin: 0 50px 50px 0;
+}
+#kontener #zawartosc #zdjecia #zdjecie:hover{
+	cursor: pointer;
+}
+#kontener #zawartosc #zdjecia #zdjecie #grafikaZdjecia{
+	width: 100%;
+}
+#kontener #zawartosc #zdjecia #zdjecie #grafikaZdjecia img{
+	width: 100%;
+}
+#kontener #zawartosc #zdjecia #zdjecie #podpisZdjecia{
+	
+}
+#kontener #zawartosc #zdjecia #zdjecie #podpisZdjecia p{
+	margin: 0;
+	font-style: italic;
 }
