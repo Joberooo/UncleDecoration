@@ -10,6 +10,7 @@
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="css/oferta.css">
 	<link rel="stylesheet" href="css/fontello.css">
+	<link rel="stylesheet" href="css/galeria.css">
 	<link href="https://fonts.googleapis.com/css2?family=Herr+Von+Muellerhoff&display=swap" rel="stylesheet">
 </head>
 
@@ -47,29 +48,68 @@
 		</ul>
 	</div>
 	
+	
 	<div id="kontener">
 		<div id="zawartosc">
 			<div id="tytul">
 				<h1>Dekoracje kościoła</h1>
 			</div>
-			<div id="zdjecia">
-				<div id="zdjecie">
-					<div id="grafikaZdjecia"><img src="img/zdjecia z dysku/IMG_8321.jpg"/></div>
-					<div id="podpisZdjecia"><p>Przykład</p></div>
+			<div class="container">
+				<div class="box">
+					<a class="gallery" href="img2/1.jpg"><img src="img2/1.jpg" alt="Pierwsza miniaturka"></a>
 				</div>
-				<div id="zdjecie">
-					<div id="grafikaZdjecia"><img src="img/zdjecia z dysku/IMG_8523.jpg"/></div>
-					<div id="podpisZdjecia"><p>Przykład</p></div>
+				<div class="box">
+					<a class="gallery" href="img2/2.jpg"><img src="img2/2.jpg" alt="Druga miniaturka"></a>
 				</div>
-				<div id="zdjecie">
-					<div id="grafikaZdjecia"><img src="img/zdjecia z dysku/IMG_8523.jpg"/></div>
-					<div id="podpisZdjecia"><p>Przykład</p></div>
+				<div class="box">
+					<a class="gallery" href="img2/3.jpg"><img src="img2/3.jpg" alt="Trzecia miniaturka"></a>
 				</div>
-				<div id="zdjecie">
-					<div id="grafikaZdjecia"><img src="img/zdjecia z dysku/IMG_8523.jpg"/></div>
-					<div id="podpisZdjecia"><p>Przykład</p></div>
+				<div class="box">
+					<a class="gallery" href="img2/4.jpg"><img src="img2/4.jpg" alt="Czwarta miniaturka"></a>
+				</div>
+				<div class="box">
+					<a class="gallery" href="img2/5.jpg"><img src="img2/5.jpg" alt="Piąta miniaturka"></a>
+				</div>
+				<div class="box">
+					<a class="gallery" href="img2/6.jpg"><img src="img2/6.jpg" alt="a miniaturka"></a>
+				</div>
+				<div class="box">
+					<a class="gallery" href="img2/7.jpg"><img src="img2/7.jpg" alt="d miniaturka"></a>
+				</div>
+				<div class="box">
+					<a class="gallery" href="img2/9.jpg"><img src="img2/8.jpg" alt="f miniaturka"></a>
+				</div>
+				<div class="box">
+					<a class="gallery" href="img2/10.jpg"><img src="img2/9.jpg" alt="f miniaturka"></a>
+				</div>
+				<div class="box">
+					<a class="gallery" href="img2/11.jpg"><img src="img2/10.jpg" alt="f miniaturka"></a>
+				</div>
+				<div class="box">
+					<a class="gallery" href="img2/12.jpg"><img src="img2/11.jpg" alt="f miniaturka"></a>
+				</div>
+				<div class="box">
+					<a class="gallery" href="img2/13.jpg"><img src="img2/12.jpg" alt="f miniaturka"></a>
+				</div>
+				<div class="box">
+					<a class="gallery" href="img2/14.jpg"><img src="img2/13.jpg" alt="f miniaturka"></a>
+				</div>
+				<div class="box">
+					<a class="gallery" href="img2/15.jpg"><img src="img2/14.jpg" alt="f miniaturka"></a>
+				</div>
+				<div class="box">
+					<a class="gallery" href="img2/16.jpg"><img src="img2/15.jpg" alt="f miniaturka"></a>
 				</div>
 			</div>
 		</div>
 	</div>
+	<script src="comp.js"></script>
+	<script src="gallery.js"></script>
+	<script src="kolumny.js"></script>
+	<script src="storage.js"></script>
+	<script>
+    (function ($) {
+      $(".gallery").gallery();
+    })(Comp);
+	</script>
 </body>
