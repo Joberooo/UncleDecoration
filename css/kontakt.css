@@ -1,0 +1,177 @@
+body
+{
+	background-image: url("../img/background3.png");
+}
+#kontenerKontakt
+{
+	width: 100%;
+	margin: 140px auto 0;
+}
+/* ----------------------------- Formularz E-mail ----------------------------- */
+#kontenerKontakt #email
+{
+	background: rgba(0, 0, 0, 0.2);
+	padding: 30px 0;
+}
+#kontenerKontakt #email #emailTekst
+{
+	font-size: 30px;
+	text-align: center;
+	letter-spacing: 10px;
+	font-family: 'Sanchez', serif;
+	padding-bottom: 10px;
+}
+#kontenerKontakt #email #emailFormularz
+{
+	width:40%;
+	margin: 20px auto;
+	background: #222222;
+	padding: 30px;
+	border:1px solid #262626;
+	font-size: 20px;
+	opacity: 0.9;
+	-webkit-box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.75);
+}
+input[type=email]
+{
+	width: 100%;
+	margin-bottom:8px;
+	background:#262626;
+	border-bottom: 1px double #171717;
+	border-top: 1px double #171717;
+	border-left:1px double #333333;
+	border-right:1px double #333333;
+	border-radius: 5px;
+	font-size: 20px;
+	color: #fff;
+	padding: 5px 0;
+}
+textarea
+{
+	width: 100%;
+	background:#262626;
+	border-bottom: 1px double #171717;
+	border-top: 1px double #171717;
+	border-left:1px double #333333;
+	border-right:1px double #333333;
+	border-radius: 5px;
+	font-size: 20px;
+	color: #ffffff;
+	padding: 5px 0;
+}
+input[type=submit]
+{
+	background:#074a22;
+	border:0px;
+	width:100px;
+	border: 1px double #063d1c;
+	border-radius: 5px;
+	font-size: 20px;
+	cursor: pointer;
+	color: #EEE;
+	padding: 5px 0;
+	opacity: 0.8;
+}
+input[type=email]:focus,
+textarea:focus
+{
+	border:2px solid #a5cda5;
+	background-color: #303030;
+	color: #ffffff;
+}
+input[type=submit]:hover
+{
+	background-color: #0e803b;
+}
+
+#kontenerKontakt #emailFormularz #inputEmail
+{ 
+	text-align: center;
+	opacity:1;
+}
+#kontenerKontakt #emailFormularz #inputWiadomosc
+{ 
+	text-align: center;
+	
+}
+#kontenerKontakt #emailFormularz #inputSubmit
+{
+	text-align: right;
+	margin-top: 10px;
+}
+/* ----------------------------- Social Media ----------------------------- */
+
+#kontenerKontakt #socialmedia
+{
+	background: rgba(0, 0, 0, 0.9);
+	padding-bottom: 40px;
+}
+#kontenerKontakt #socialmedia #socialmediaTekst
+{
+	font-size: 20px;
+	text-align: center;
+	letter-spacing: 5px;
+	font-family: 'Sanchez', serif;
+	padding-bottom: 20px;
+	margin-bottom: 30px;
+	padding: 10px;
+}
+#kontenerKontakt #socialmedia #socialmediaTekst #tekst
+{
+	width: 80%;
+	margin: 0 auto;
+}
+#kontenerKontakt #socialmedia #socialmediaLinki #kolumny
+{
+	text-align: center;
+}
+#kontenerKontakt #socialmedia #socialmediaLinki #kolumny #kolumnaLewa
+{
+	display: inline-block;
+	width: 15%;
+}
+#kontenerKontakt #socialmedia #socialmediaLinki #kolumny #kolumnaPrawa
+{
+	display: inline-block;
+	width: 15%;
+}
+#kontenerKontakt #socialmedia #socialmediaLinki #kolumny #kolumnaLewa a{
+	font-size: 100px;
+	padding: 10px 0 10px;
+	border: 3px solid #FFF;
+	border-radius: 50%;
+}
+#kontenerKontakt #socialmedia #socialmediaLinki #kolumny #kolumnaLewa a:hover{
+	background: #3557A2;
+}
+#kontenerKontakt #socialmedia #socialmediaLinki #kolumny  #kolumnaPrawa a{
+	font-size: 100px;
+	padding: 10px 0;
+	border: 3px solid #FFF;
+	border-radius: 50%;
+}
+#kontenerKontakt #socialmedia #socialmediaLinki #kolumny #kolumnaPrawa a:hover{
+	background: url("../img/instaBackground.png");
+}
+/* ----------------------------- LOKALIZACJA ----------------------------- */
+#kontenerKontakt #adres
+{
+	text-align: center;
+	background: rgba(0, 0, 0, 0.2);
+	padding: 10px;
+	padding-left:100px;
+}
+#kontenerKontakt #adres #adresLewy
+{
+	display: inline-block;
+	width: 15%;
+	text-align: left;
+}
+#kontenerKontakt #adres #adresPrawy
+{
+	display: inline-block;
+	width: 15%;
+	text-align: left;
+}

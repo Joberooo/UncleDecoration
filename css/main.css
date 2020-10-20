@@ -180,7 +180,7 @@ body a{
 #kontenerLokalizacja #kolumny .kolumna:first-child{
 	margin: 0;
 	float: left;
-	text-align: left;
+	teign: left;
 	margin-top: 0;
 }
 #kontenerLokalizacja #kolumny .kolumna:nth-child(3){
