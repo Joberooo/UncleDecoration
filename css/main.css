@@ -29,6 +29,7 @@ body a{
 	margin: 0 auto;
 	top: 0;
 	z-index: 100;
+	font-family: 'Open Sans', sans-serif;
 }
 #menu ul{
 	text-align: right;
@@ -38,7 +39,7 @@ body a{
 #menu ul li{
 	display: inline-block;
 	list-style-type: none;
-	font-size: 25px;
+	font-size: 21px;
 	margin-left: 20px;
 }
 #menu ul li:hover a{
@@ -49,7 +50,7 @@ body a{
 #logo{
 	display: block;
 	width: 800px;
-	margin: 50px auto 0;
+	margin: 80px auto 0;
 }
 #logo #prostokat{
 	border: 1px solid #FFF;
@@ -66,7 +67,7 @@ body a{
 	top: -30px;
 }
 #logo #prostokat p{
-	font-family: 'Herr Von Muellerhoff', cursive;
+	font-family: 'Herr Von Muellerhoff', cursive !important;
 	font-size: 200px;
 	letter-spacing: 50px;
 	text-align: center;
@@ -119,7 +120,7 @@ body a{
 	text-align: center;
 	width: 50%;
 	margin: 10% auto;
-	font-size: 1.5vw;
+	font-size: 1.2vw;
 }
 #kontenerOferty #oferty .oferta .element .link .content p{
 	border: 1px solid #fff;
@@ -134,11 +135,15 @@ body a{
 }
 #kontenerOferty #oferty #opisOferty h1{
 	text-align: center;
+	font-size: 2vw;
+	font-family: 'Open Sans', sans-serif;
 }#kontenerOferty #oferty #opisOferty p{
 	text-align: justify;
 	border-top: 1px solid #fff;
 	border-bottom: 1px solid #fff;
 	padding: 15px 0;
+	font-size: 1vw;
+	font-family: 'Open Sans', sans-serif;
 }
 
 /* ----------------------------- LOKALIZACJA ----------------------------- */

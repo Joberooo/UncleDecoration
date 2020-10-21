@@ -43,6 +43,7 @@ body
 	position: fixed;
 	bottom: 0;
 	left: 0;
+	font-family: 'Open Sans', sans-serif;
 }
 #navBar ul{
 	margin: 0;
@@ -71,6 +72,8 @@ body
 	width: 80%;
 	position: relative;
 	left: 10%;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
 }
 #kontener #zawartosc{
 	width: 80%;

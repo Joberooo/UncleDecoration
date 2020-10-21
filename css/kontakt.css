@@ -1,9 +1,11 @@
 body
 {
 	background-image: url("../img/background.png");
+	
 }
 #kontenerKontakt
 {
+	font-family: 'Open Sans', sans-serif;
 	width: 100%;
 	margin: 140px auto 0;
 }
