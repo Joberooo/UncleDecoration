@@ -119,11 +119,12 @@ body a{
 	text-align: center;
 	width: 50%;
 	margin: 10% auto;
-	font-size: 20px;
+	font-size: 1.5vw;
 }
 #kontenerOferty #oferty .oferta .element .link .content p{
 	border: 1px solid #fff;
 	transition: background 0.2s ease-in-out;
+	top: 10%;
 }
 #kontenerOferty #oferty .oferta .element .link .content p:hover{
 	background: #3e3e3e;
