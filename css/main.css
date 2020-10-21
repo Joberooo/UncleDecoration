@@ -159,6 +159,9 @@ body a{
 	text-align: center;
 	margin-top: 40px
 }
+#kontenerLokalizacja #kolumny .kolumna:nth-child(1){
+	text-align: left;
+}
 #kontenerLokalizacja #kolumny .kolumna:nth-child(2) a{
 	font-size: 100px;
 	padding: 10px 0 10px;
