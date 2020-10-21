@@ -69,8 +69,6 @@ body
 }
 
 .compsoul-gallery-mask-before-button {
-  background: #000;
-  content: "";
   cursor: pointer;
   height: 4vw;
   right: 0rem;
@@ -78,13 +76,14 @@ body
   top: 0rem;
   width: 4vw;
   z-index: 1;
+  background-image: url("../img2/times-solid.svg");
+  background-repeat: no-repeat;
+  
 }
 
 .compsoul-gallery-mask-before:after {
   color: #fff;
-  content: "\f105\f104";
   cursor: pointer;
-  font-family: "FontAwesome";
   font-size: 2vw;
   letter-spacing: -0.1875rem;
   line-height: 2vw;
@@ -116,13 +115,9 @@ body
   width: 100%;
 }
 
-.compsoul-gallery-prev, .compsoul-gallery-next {
-  background: #000;
+.compsoul-gallery-prev{
   cursor: pointer;
-  font-size: 0;
   height: 4vw;
-  letter-spacing: 0;
-  line-height: 0;
   right: 0rem;
   overflow: hidden;
   position: fixed;
@@ -132,23 +127,39 @@ body
   white-space: nowrap;
   width: 4vw;
   z-index: 1;
+  background-image: url("../img2/chevron-left-solid.svg");
+  background-repeat: no-repeat;
 }
-
+.compsoul-gallery-next 
+{
+  cursor: pointer;
+  height: 4vw;
+  right: -1rem;
+  overflow: hidden;
+  position: fixed;
+  top: 50%;
+  text-indent: 100%;
+  transform: translateY(-50%);
+  white-space: nowrap;
+  width: 4vw;
+  z-index: 1;
+   background-image: url("../img2/chevron-right-solid.svg");
+  background-repeat: no-repeat;
+}
 .compsoul-gallery-prev {
   left: 0rem;
 }
 
 .compsoul-gallery-prev:before, .compsoul-gallery-next:before {
   display: block;
-  color: #fff;
-  content: "\f105";
-  font-family: "FontAwesome";
   font-size: 2vw;
   line-height: 4vw;
   height: 4vw;
   text-align: center;
   text-indent: initial;
   width: 4vw;
+ background-image: url("../img2/times-solid.svg");
+  background-repeat: no-repeat;
 }
 
 .compsoul-gallery-close:after {
@@ -159,7 +170,8 @@ body
 }
 
 .compsoul-gallery-prev:before {
-  content: "\f104";
+	background-image: url("../img2/times-solid.svg");
+	background-repeat: no-repeat;
 }
 
 .compsoul-gallery-first-element, .compsoul-gallery-second-element {

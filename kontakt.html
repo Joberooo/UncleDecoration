@@ -35,6 +35,8 @@
 		<ul>
 	</div>	
 	
+	<form action="order.php" method="post" enctype="multipart/form-data">
+	
 	<div id="kontenerKontakt">
 		<div id="email">
 			<div id="emailTekst">
@@ -42,17 +44,18 @@
 			</div>
 			<div id="emailFormularz">
 				<div id="inputEmail">
-					<input type="email"  name="adres" placeholder="Adres e-mail" required>
+					<input type="email"  name="adres" placeholder="Twój adres e-mail" required>
 				</div>
 				<div id="inputWiadomosc">
 						<textarea rows="15" name="komentarz" id="wiadomosc"
-						minlength="10" placeholder="Tekst wiadomosci"></textarea>
+						minlength="10" placeholder="Tekst wiadomosci" required></textarea>
 				</div>
 				<div id="inputSubmit">
 					<input type="submit" value="Wyślij">
 				</div>
 			</div>
 		</div>
+		</form>
 		<div id="socialmedia">
 			<div id="socialmediaTekst">
 				<div id="tekst">
