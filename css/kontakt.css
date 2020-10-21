@@ -25,7 +25,7 @@ body
 }
 #kontenerKontakt #email #emailFormularz
 {
-	width:40%;
+	width:60%;
 	margin: 20px auto;
 	background: #222222;
 	padding: 30px;
@@ -141,7 +141,6 @@ input[type=submit]:hover
 }
 #kontenerKontakt #socialmedia #socialmediaLinki #kolumny #kolumnaLewa a{
 	font-size: 100px;
-	padding: 10px 0 10px;
 	border: 3px solid #FFF;
 	border-radius: 50%;
 }
@@ -150,7 +149,6 @@ input[type=submit]:hover
 }
 #kontenerKontakt #socialmedia #socialmediaLinki #kolumny  #kolumnaPrawa a{
 	font-size: 100px;
-	padding: 10px 0;
 	border: 3px solid #FFF;
 	border-radius: 50%;
 }
