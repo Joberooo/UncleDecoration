@@ -255,19 +255,36 @@
         addEventListener("keypress", function(event) {
           if(gallery.activeFlag) {
             switch (true) {
-              case event.key === "ArrowRight" || event.key === "d" || event.key === "D":
+              case event.key === "d" || event.key === "D":
                 gallery.nav(1);
               break;
-              case event.key === "ArrowLeft" || event.key === "a" || event.key === "A":
+              case event.key === "a" || event.key === "A":
                 gallery.nav(-1);
               break;
-              case event.key === "Escape" || event.key === "z" || event.key === "Z":
+              case event.key === "z" || event.key === "Z":
                 gallery.close();
               break;
             }
           }
         });
       }
+	  document.onkeydown = checkKey;
+
+		function checkKey(e) {
+
+			e = e || window.event;
+
+			if (e.keyCode == '39') {
+				 gallery.nav(1);
+			}
+			else if (e.keyCode == '37') {
+			    gallery.nav(-1);
+			}
+			else if (e.keyCode == '27') {
+			    gallery.close();
+			}
+
+}
     };
     
     gallery.show = function() {
