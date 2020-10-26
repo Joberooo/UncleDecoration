@@ -19,7 +19,7 @@
 <body>
 	<div id="menu">
 		<div id="miniLogo">
-			<a href="index.html">
+			<a href="index2.php">
 				<div id="logo">
 					<div id="prostokat">
 						<p>Wujek</p>
@@ -29,9 +29,9 @@
 			</a>
 		</div>
 		<ul>
-			<li><a href="index.html">Strona Główna</a></li>
-			<li><a href="oferta.html">Oferta</a></li>
-			<li><a href="kontakt.html">Kontakt</a></li>
+			<li><a href="index2.php">Strona Główna</a></li>
+			<li><a href="oferta.php">Oferta</a></li>
+			<li><a href="kontakt.php">Kontakt</a></li>
 		<ul>
 	</div>	
 	

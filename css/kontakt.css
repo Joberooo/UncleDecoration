@@ -1,6 +1,6 @@
 body
 {
-	background-image: url("../img/background.png");
+	background-image: url("../img/background.jpg");
 	
 }
 #kontenerKontakt
@@ -25,7 +25,7 @@ body
 }
 #kontenerKontakt #email #emailFormularz
 {
-	width:60%;
+	width:50%;
 	margin: 20px auto;
 	background: #222222;
 	padding: 30px;

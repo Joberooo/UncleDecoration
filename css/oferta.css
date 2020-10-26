@@ -1,6 +1,6 @@
 body
 {
-	background-image: url("../img/background.png");
+	background-image: url("../img/background.jpg");
 }
 
 /* ----------------------------- LOGO ----------------------------- */
@@ -35,32 +35,33 @@ body
 
 /* ----------------------------- NAVBAR ----------------------------- */
 #navBar{
-	width: 20%;
-	min-width: 200px;
-	height: calc(100% - 140px);
+	width: 100%;
 	display: block;
-	background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 50%, rgba(255, 255, 255, 0) 100%);
-	position: fixed;
-	bottom: 0;
-	left: 0;
+	background: linear-gradient(90deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0.9) 15%, rgba(255, 255, 255, 0.9) 85%, rgba(255, 255, 255, 0.5) 100%);
 	font-family: 'Open Sans', sans-serif;
+	position: fixed;
+	top: 140px;
+	z-index: 100;
 }
 #navBar ul{
-	margin: 0;
+	width: 80%;
+	margin: 0 auto;
 	padding: 0;
 }
 #navBar ul li{
 	display: block;
-	width: calc(100% - 50px);
+	width: 33%;
 	height: 50px;
 	line-height: 50px;
-	border-bottom: 1px solid rgba(0, 0, 0, 0.5);
 	overflow: hidden;
 	float: left;
-	padding-left: 50px;
+}
+#navBar ul a{
+	color: #000;
+	text-align: center;
 }
 #navBar ul li:hover{
-	background: linear-gradient(90deg, rgba(50, 102, 71, 0.2) 50%, rgba(50, 102, 71, 0) 100%);
+	background: linear-gradient(90deg, rgba(50, 102, 71, 0) 0%, rgba(50, 102, 71, 0.3) 25%, rgba(50, 102, 71, 0.3) 75%, rgba(50, 102, 71, 0) 100%);
 }
 #navBar ul ul li{
 	width: calc(100% - 100px);
@@ -69,9 +70,7 @@ body
 
 /* ----------------------------- ZAWARTOŚĆ STRONY ----------------------------- */
 #kontener{
-	width: 80%;
-	position: relative;
-	left: 10%;
+	width: 100%;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 18px;
 }

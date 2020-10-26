@@ -7,7 +7,7 @@
             // lepiej ustawić wartość ratio na trochę więcej niż 50%,
             // dzięki temu jest mniejsze prawdopodobieństwo, że elementy się nie zmieszczą
             // w kontenerze
-            var ratio = 0.55,
+            var ratio = 0.30,
                 boxesHeight = 0,
                 boxMaxHeight = 0;
  

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pl">
+<html xmlns="http://www.wujek-dekoracje.pl/stronaglowna" lang="pl">
 <head>
 	<meta charset="utf-8">
 	<title>Wujek Dekoracje</title>
@@ -16,14 +16,14 @@
 <body>
 	<div id="menu">
 		<ul>
-			<li><a href="index.html">Strona Główna</a></li>
-			<li><a href="oferta.html">Oferta</a></li>
-			<li><a href="kontakt.html">Kontakt</a></li>
+			<li><a href="index2.php">Strona Główna</a></li>
+			<li><a href="oferta.php">Oferta</a></li>
+			<li><a href="kontakt.php">Kontakt</a></li>
 		<ul>
 	</div>
 		
 	<div id="kontener">
-		<a href="index.html">
+		<a href="index2.php">
 			<div id="logo">
 				<div id="prostokat">
 					<p>Wujek</p>
@@ -37,7 +37,7 @@
 				<div class="oferta">
 					<div class="element">
 						<img src="img/dekoracjaKosciola2.jpg" />
-						<h2><a class="link" href="#">
+						<h2><a class="link" href="dekoracje_kosciola.php">
 							<div class="content">
 								<h1>Dekoracje kościoła</h1>
 								<br/>
@@ -49,7 +49,7 @@
 				<div class="oferta">
 					<div class="element">
 						<img src="img/dekoracjaSali2.jpg" />
-						<h2><a class="link" href="#">
+						<h2><a class="link" href="dekoracje_sali.php">
 							<div class="content">
 								<h1>Dekoracje sali</h1>
 								<br/>
@@ -61,9 +61,9 @@
 				<div class="oferta">
 					<div class="element">
 						<img src="img/bukietSlubny2.jpg" />
-						<h2><a class="link" href="#">
+						<h2><a class="link" href="akcesoria.php">
 							<div class="content">
-								<h1>Bukiety ślubne</h1>
+								<h1>Akcesoria ślubne</h1>
 								<br/>
 								<p>Zobacz ofertę</p>
 							</div>
