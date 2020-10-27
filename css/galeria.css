@@ -5,18 +5,9 @@ body
 * {
     box-sizing: border-box;
 }
-.container{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-	position: relative;
-}
  
 .box {
-    width: calc(25% - 5px);
     padding: 2px;
-    margin: 5px;
-    background: #eee;
 }
  
 .box img {

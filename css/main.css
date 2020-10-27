@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'Mellya';
+  src: url('Mellya.ttf');
+}
+
 body
 {
 	background-image: url("../img/background.jpg");
@@ -9,6 +14,8 @@ body
 	padding: 0;
 	color: #FFF;
 	font-size: 20px;
+	font-family: 'Poiret One', cursive;
+	
 }
 body a{
 	color: #FFF;
@@ -29,7 +36,7 @@ body a{
 	margin: 0 auto;
 	top: 0;
 	z-index: 100;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Poiret One', cursive;
 }
 #menu ul{
 	text-align: right;
@@ -64,14 +71,15 @@ body a{
 	text-transform: uppercase;
 	margin: 0;
 	position: relative;
-	top: -30px;
+	top: -33px;
+	font-family: 'Poiret One', cursive;
 }
 #logo #prostokat p{
-	font-family: 'Herr Von Muellerhoff', cursive !important;
-	font-size: 200px;
-	letter-spacing: 50px;
+	font-family: 'Mellya';
+	font-size: 270px;
 	text-align: center;
 	margin: 58px 0;
+	margin-left: -20px;
 }
 
 /* ----------------------------- KATEGORIE OFERTY ----------------------------- */
@@ -136,14 +144,14 @@ body a{
 #kontenerOferty #oferty #opisOferty h1{
 	text-align: center;
 	font-size: 2vw;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Poiret One', cursive;
 }#kontenerOferty #oferty #opisOferty p{
 	text-align: justify;
 	border-top: 1px solid #fff;
 	border-bottom: 1px solid #fff;
 	padding: 15px 0;
 	font-size: 1vw;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Poiret One', cursive;
 }
 
 /* ----------------------------- LOKALIZACJA ----------------------------- */
@@ -152,6 +160,7 @@ body a{
 	background-color: rgba(0, 0, 0, 0.7);
 	padding: 20px 0;
 	overflow: hidden;
+	font-family: 'Poiret One', cursive;
 }
 #kontenerLokalizacja #kolumny{
 	width: 80%;

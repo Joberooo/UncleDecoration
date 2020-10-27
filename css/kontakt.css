@@ -1,11 +1,11 @@
 body
 {
 	background-image: url("../img/background.jpg");
+	font-family: 'Poiret One', cursive;
 	
 }
 #kontenerKontakt
 {
-	font-family: 'Open Sans', sans-serif;
 	width: 100%;
 	margin: 140px auto 0;
 }
@@ -20,14 +20,13 @@ body
 	font-size: 30px;
 	text-align: center;
 	letter-spacing: 10px;
-	font-family: 'Sanchez', serif;
 	padding-bottom: 10px;
 }
 #kontenerKontakt #email #emailFormularz
 {
 	width:50%;
 	margin: 20px auto;
-	background: #222222;
+	background: #f2f2f2;
 	padding: 30px;
 	border:1px solid #262626;
 	font-size: 20px;
@@ -35,57 +34,54 @@ body
 	-webkit-box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.75);
 	-moz-box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.75);
 	box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.75);
+	font-family: 'Poiret One', cursive;
 }
 input[type=email]
 {
 	width: 100%;
 	margin-bottom:8px;
-	background:#262626;
-	border-bottom: 1px double #171717;
-	border-top: 1px double #171717;
-	border-left:1px double #333333;
-	border-right:1px double #333333;
+	background: #f7f7f7;
+	border: 1px double #b5b5b5;
 	border-radius: 5px;
 	font-size: 20px;
-	color: #fff;
+	color: #000;
 	padding: 5px 0;
+	font-family: 'Poiret One', cursive;
 }
 textarea
 {
 	width: 100%;
-	background:#262626;
-	border-bottom: 1px double #171717;
-	border-top: 1px double #171717;
-	border-left:1px double #333333;
-	border-right:1px double #333333;
+	background:#f7f7f7;
+	border: 1px double #b5b5b5;
 	border-radius: 5px;
 	font-size: 20px;
-	color: #ffffff;
+	color: #000;
 	padding: 5px 0;
+	font-family: 'Poiret One', cursive;
 }
 input[type=submit]
 {
-	background:#074a22;
+	background:#000;
 	border:0px;
 	width:100px;
-	border: 1px double #063d1c;
+	border: 1px double #b5b5b5;
 	border-radius: 5px;
 	font-size: 20px;
 	cursor: pointer;
-	color: #EEE;
+	color: #fff;
 	padding: 5px 0;
 	opacity: 0.8;
+	font-family: 'Poiret One', cursive;
 }
 input[type=email]:focus,
 textarea:focus
 {
-	border:2px solid #a5cda5;
-	background-color: #303030;
-	color: #ffffff;
+	color: #000;
+	font-family: 'Poiret One', cursive;
 }
 input[type=submit]:hover
 {
-	background-color: #0e803b;
+	background-color: #474747;
 }
 
 #kontenerKontakt #emailFormularz #inputEmail
@@ -115,7 +111,6 @@ input[type=submit]:hover
 	font-size: 20px;
 	text-align: center;
 	letter-spacing: 5px;
-	font-family: 'Sanchez', serif;
 	padding-bottom: 20px;
 	margin-bottom: 30px;
 	padding: 10px;
@@ -132,12 +127,12 @@ input[type=submit]:hover
 #kontenerKontakt #socialmedia #socialmediaLinki #kolumny #kolumnaLewa
 {
 	display: inline-block;
-	width: 15%;
+	width: 20%;
 }
 #kontenerKontakt #socialmedia #socialmediaLinki #kolumny #kolumnaPrawa
 {
 	display: inline-block;
-	width: 15%;
+	width: 20%;
 }
 #kontenerKontakt #socialmedia #socialmediaLinki #kolumny #kolumnaLewa a{
 	font-size: 100px;
@@ -166,12 +161,10 @@ input[type=submit]:hover
 #kontenerKontakt #adres #adresLewy
 {
 	display: inline-block;
-	width: 15%;
 	text-align: left;
+	
 }
 #kontenerKontakt #adres #adresPrawy
 {
 	display: inline-block;
-	width: 15%;
-	text-align: left;
 }

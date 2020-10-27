@@ -14,6 +14,7 @@
 	<link href="https://fonts.googleapis.com/css2?family=Herr+Von+Muellerhoff&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -30,7 +31,7 @@
 		</div>
 		<ul>
 			<li><a href="index2.php">Strona Główna</a></li>
-			<li><a href="oferta.php">Oferta</a></li>
+			<li><a href="dekoracje_sali.php">Oferta</a></li>
 			<li><a href="kontakt.php">Kontakt</a></li>
 		<ul>
 	</div>	
@@ -49,19 +50,21 @@
 			<div id="tytul">
 				<h1>Dekoracje Sali</h1>
 			</div>
-			<div class="container">
-				<?php
-					$katalog = "img2/dekoracje_sali";
-					$galeria = opendir($katalog);
-					while( $zdjecie = readdir($galeria)){
-						$odczyt = pathinfo($katalog.'/'.$zdjecie);
-						if($odczyt['extension'] == 'jpg' || $odczyt['extension'] == 'JPG' || $odczyt['extension'] == 'png' || $odczyt['extension'] == 'PNG' || $odczyt['extension'] == 'gif' || $odczyt['extension'] == 'GIF'){
-							echo '<div class="box"><a class="gallery" href="'.$katalog.'/'.$zdjecie.'"><img src="'.$katalog.'/'.$zdjecie.'" alt=""></a></div>';
+			<section id="photos">
+				<div class="container">
+					<?php
+						$katalog = "img2/dekoracje_sali";
+						$galeria = opendir($katalog);
+						while( $zdjecie = readdir($galeria)){
+							$odczyt = pathinfo($katalog.'/'.$zdjecie);
+							if($odczyt['extension'] == 'jpg' || $odczyt['extension'] == 'JPG' || $odczyt['extension'] == 'png' || $odczyt['extension'] == 'PNG' || $odczyt['extension'] == 'gif' || $odczyt['extension'] == 'GIF'){
+								echo '<div class="box"><a class="gallery" href="'.$katalog.'/'.$zdjecie.'"><img src="'.$katalog.'/'.$zdjecie.'" alt=""></a></div>';
+							}
 						}
-					}
-					closedir($galeria);
-				?>
-			</div>
+						closedir($galeria);
+					?>
+				</div>
+			</section>
 		</div>
 	</div>
 	<script src="comp.js"></script>

@@ -14,6 +14,7 @@
 	<link href="https://fonts.googleapis.com/css2?family=Herr+Von+Muellerhoff&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Sanchez&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -80,10 +81,10 @@
 				<p><i class="icon-phone"></i>Numer telefonu:</p>
 			</div>
 			<div id="adresPrawy">
-				<p>Ostrowiecko 222a</p>
-				<p>20-550 Jarosław</p>
+				<p>Ostrów 333A</p>
+				<p>37-550 Radymno</p>
 				<p>wujekdekoracje@gmail.com</p>
-				<p>123 - 456 - 789</p>
+				<p>666 627 522</p>
 			</div>
 		</div>
 	<div>

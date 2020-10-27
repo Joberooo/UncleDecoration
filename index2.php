@@ -11,13 +11,14 @@
 	<link rel="stylesheet" href="css/fontello.css">
 	<link href="https://fonts.googleapis.com/css2?family=Herr+Von+Muellerhoff&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
 </head>
 
 <body>
 	<div id="menu">
 		<ul>
 			<li><a href="index2.php">Strona Główna</a></li>
-			<li><a href="oferta.php">Oferta</a></li>
+			<li><a href="dekoracje_sali.php">Oferta</a></li>
 			<li><a href="kontakt.php">Kontakt</a></li>
 		<ul>
 	</div>
@@ -84,10 +85,10 @@
 				<div class="kolumna">
 					<div id="lokalizacja">
 						<p><i class="icon-location"></i>Adres firmy</p>
-						<p><i class="icon-location"></i>ul. Rozjazdowska</p>
-						<p><i class="icon-location"></i>78-400 Szczecinek</p>
+						<p><i class="icon-location"></i>Ostrów 333A</p>
+						<p><i class="icon-location"></i>37-550 Radymno</p>
 						<p><i class="icon-mail"></i>E-mail: uncle-decoration@gmail.com</p>
-						<p><i class="icon-phone"></i>Numer telefonu: 678 - 456 - 777</p>
+						<p><i class="icon-phone"></i>Numer telefonu: 666 627 522</p>
 					</div>
 				</div>
 				<div class="kolumna">
