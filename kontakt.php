@@ -20,7 +20,7 @@
 <body>
 	<div id="menu">
 		<div id="miniLogo">
-			<a href="index2.php">
+			<a href="index.php">
 				<div id="logo">
 					<div id="prostokat">
 						<p>Wujek</p>
@@ -30,13 +30,12 @@
 			</a>
 		</div>
 		<ul>
-			<li><a href="index2.php">Strona Główna</a></li>
-			<li><a href="oferta.php">Oferta</a></li>
+			<li><a href="index.php">Strona Główna</a></li>
+			<li><a href="dekoracje_sali.php">Oferta</a></li>
 			<li><a href="kontakt.php">Kontakt</a></li>
 		<ul>
 	</div>	
-	
-	<form action="order.php" method="post" enctype="multipart/form-data">
+	<form action="order.php" method="post">
 	
 	<div id="kontenerKontakt">
 		<div id="email">
@@ -66,10 +65,10 @@
 			<div id="socialmediaLinki">
 				<div id="kolumny">
 					<div id="kolumnaLewa">
-						<a href="#"><i class="icon-facebook"></i></a>
+						<a href="https://www.facebook.com" target="_blank"><i class="icon-facebook"></i></a>
 					</div>
 					<div id="kolumnaPrawa">
-						<a href="#"><i class="icon-instagram"></i></a>
+						<a href="https://www.instagram.com" target="_blank"><i class="icon-instagram"></i></a>
 					</div>
 				</div>
 			</div>
@@ -83,7 +82,7 @@
 			<div id="adresPrawy">
 				<p>Ostrów 333A</p>
 				<p>37-550 Radymno</p>
-				<p>wujekdekoracje@gmail.com</p>
+				<p>ewelinamichalik184@gmail.com</p>
 				<p>666 627 522</p>
 			</div>
 		</div>

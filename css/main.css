@@ -5,7 +5,7 @@
 
 body
 {
-	background-image: url("../img/background.jpg");
+	background-image: url("../img/tlo1.gif");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: left top;
@@ -76,10 +76,10 @@ body a{
 }
 #logo #prostokat p{
 	font-family: 'Mellya';
-	font-size: 270px;
+	font-size: calc(16rem + ((1vw - 0.3rem) * 0.5556));
 	text-align: center;
 	margin: 58px 0;
-	margin-left: -20px;
+	margin-left: -2rem;
 }
 
 /* ----------------------------- KATEGORIE OFERTY ----------------------------- */
@@ -150,7 +150,7 @@ body a{
 	border-top: 1px solid #fff;
 	border-bottom: 1px solid #fff;
 	padding: 15px 0;
-	font-size: 1vw;
+	font-size: 23px;
 	font-family: 'Poiret One', cursive;
 }
 

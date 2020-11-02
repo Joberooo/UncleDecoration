@@ -1,6 +1,6 @@
 body
 {
-	background-image: url("../img/background.jpg");
+	background-image: url("../img/tlo3.gif");
 	font-family: 'Poiret One', cursive;
 	
 }
@@ -138,6 +138,7 @@ input[type=submit]:hover
 	font-size: 100px;
 	border: 3px solid #FFF;
 	border-radius: 50%;
+	padding: 10px 0;
 }
 #kontenerKontakt #socialmedia #socialmediaLinki #kolumny #kolumnaLewa a:hover{
 	background: #3557A2;
@@ -146,6 +147,7 @@ input[type=submit]:hover
 	font-size: 100px;
 	border: 3px solid #FFF;
 	border-radius: 50%;
+	padding: 10px 0;
 }
 #kontenerKontakt #socialmedia #socialmediaLinki #kolumny #kolumnaPrawa a:hover{
 	background: url("../img/instaBackground.png");
@@ -167,4 +169,5 @@ input[type=submit]:hover
 #kontenerKontakt #adres #adresPrawy
 {
 	display: inline-block;
+	text-align: left;
 }
