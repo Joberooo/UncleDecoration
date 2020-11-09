@@ -38,11 +38,11 @@ body
 #navBar{
 	width: 100%;
 	display: block;
-	background: linear-gradient(90deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0.9) 15%, rgba(255, 255, 255, 0.9) 85%, rgba(255, 255, 255, 0.5) 100%);
 	position: fixed;
 	top: 140px;
 	z-index: 100;
 	font-size: 25px;
+	background: rgba(0, 0, 0, 0.7);
 }
 #navBar ul{
 	width: 80%;
@@ -51,23 +51,36 @@ body
 }
 #navBar ul li{
 	display: block;
-	width: 33%;
-	height: 50px;
-	line-height: 50px;
+	width: 20%;
+	height: 75px;
 	overflow: hidden;
 	float: left;
 }
 #navBar ul a{
-	color: #000;
+	color: #ededed;
 	text-align: center;
 }
 #navBar ul li:hover{
-	/*background: linear-gradient(90deg, rgba(50, 102, 71, 0) 0%, rgba(50, 102, 71, 0.3) 25%, rgba(50, 102, 71, 0.3) 75%, rgba(50, 102, 71, 0) 100%);*/
 	font-weight:900;
 }
-#navBar ul ul li{
-	width: calc(100% - 100px);
-	padding-left: 100px;
+#navBar ul li p{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-size: 20px;
+	position: relative;
+	top: 10px;
+}
+#navBar ul li .decorationSmallElement{
+	border: 1px solid #ededed;
+	position: relative;
+	width: 60%;
+	margin: 0 20%;
+	height: 40px;
+}	
+#navBar ul li .decorationSmallElement p{
+	font-size: 26px;
+	width: 100%;
 }
 
 /* ----------------------------- ZAWARTOŚĆ STRONY ----------------------------- */
@@ -75,6 +88,11 @@ body
 	width: 100%;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 18px;
+	position: relative;
+	top: 150px;
+}
+#kontener #kontenerOferty{
+	background: none;
 }
 #kontener #zawartosc{
 	width: 80%;

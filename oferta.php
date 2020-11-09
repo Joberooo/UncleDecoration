@@ -38,11 +38,11 @@
 	
 	<div id="navBar">
 		<ul>
-			<a href="dekoracje_kosciola.php"><li>Dekoracje kościoła</li></a>
-			<a href="dekoracje_sali.php"><li>Dekoracje sali</li></a>
-			<a href="bukiety_slubne.php"><li>Bukiety ślubne</li></a>
-			<a href="sesja_plenerowa.php"><li>Sesja Plenerowa</li></a>
-			<a href="akcesoria.php"><li>Akcesoria Ślubne</li></a>
+			<a href="dekoracje_kosciola.php"><li><p>Dekoracje</p><div class="decorationSmallElement"><p>kościoła</p></div></li></a>
+			<a href="dekoracje_sali.php"><li><p>Dekoracje</p><div class="decorationSmallElement"><p>sali</p></div></li></a>
+			<a href="bukiety_slubne.php"><li><p>Bukiety</p><div class="decorationSmallElement"><p>ślubne</p></div></li></a>
+			<a href="sesja_plenerowa.php"><li><p>Sesja</p><div class="decorationSmallElement"><p>plenerowa</p></div></li></a>
+			<a href="akcesoria.php"><li><p>Akcesoria</p><div class="decorationSmallElement"><p>ślubne</p></div></li></a>
 		</ul>
 	</div>
 	
