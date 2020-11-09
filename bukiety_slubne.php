@@ -55,7 +55,7 @@
 			<section id="photos">
 				<div class="container">
 					<?php
-						$katalog = "img2/dekoracje_sali";
+						$katalog = "img2/bukiety_slubne";
 						$galeria = opendir($katalog);
 						while( $zdjecie = readdir($galeria)){
 							$odczyt = pathinfo($katalog.'/'.$zdjecie);

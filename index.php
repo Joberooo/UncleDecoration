@@ -18,7 +18,7 @@
 	<div id="menu">
 		<ul>
 			<li><a href="index.php">Strona Główna</a></li>
-			<li><a href="dekoracje_sali.php">Oferta</a></li>
+			<li><a href="oferta.php">Oferta</a></li>
 			<li><a href="kontakt.php">Kontakt</a></li>
 		<ul>
 	</div>

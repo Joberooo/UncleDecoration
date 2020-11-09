@@ -40,30 +40,52 @@
 		<ul>
 			<a href="dekoracje_kosciola.php"><li>Dekoracje kościoła</li></a>
 			<a href="dekoracje_sali.php"><li>Dekoracje sali</li></a>
+			<a href="bukiety_slubne.php"><li>Bukiety ślubne</li></a>
+			<a href="sesja_plenerowa.php"><li>Sesja Plenerowa</li></a>
 			<a href="akcesoria.php"><li>Akcesoria Ślubne</li></a>
 		</ul>
 	</div>
 	
 	
 	<div id="kontener">
-		<div id="zawartosc">
-			<div id="tytul">
-				<h1>Dekoracje kościoła</h1>
-			</div>
-			<div class="container">
-				<?php
-					$katalog = "img2/dekoracje_kosciola";
-					$galeria = opendir($katalog);
-					while( $zdjecie = readdir($galeria)){
-						$odczyt = pathinfo($katalog.'/'.$zdjecie);
-						if($odczyt['extension'] == 'jpg' || $odczyt['extension'] == 'JPG' || $odczyt['extension'] == 'png' || $odczyt['extension'] == 'PNG' || $odczyt['extension'] == 'gif' || $odczyt['extension'] == 'GIF'){
-							echo '<div class="box"><a class="gallery" href="'.$katalog.'/'.$zdjecie.'"><img src="'.$katalog.'/'.$zdjecie.'" alt=""></a></div>';
-						}
-					}
-					closedir($galeria);
-				?>
-			</div>
-		</div>
+		<div id="kontenerOferty">
+			<div id="oferty">
+				<div class="oferta">
+					<div class="element">
+						<img src="img2/oferta/akcesoria.jpg" />
+						<h2><a class="link" href="dekoracje_kosciola.php">
+							<div class="content">
+								<h1>Dekoracje kościoła</h1>
+								<br/>
+								<p>Zobacz ofertę</p>
+							</div>
+						</a></h2>
+					</div>
+				</div>
+				<div class="oferta">
+					<div class="element">
+						<img src="img2/oferta/dekoracjaSali.jpg" />
+						<h2><a class="link" href="dekoracje_sali.php">
+							<div class="content">
+								<h1>Dekoracje sali</h1>
+								<br/>
+								<p>Zobacz ofertę</p>
+							</div>
+						</a></h2>
+					</div>
+				</div>
+				<div class="oferta">
+					<div class="element">
+						<img src="img/bukietslubny2.jpg" />
+						<h2><a class="link" href="akcesoria.php">
+							<div class="content">
+								<h1>Akcesoria ślubne</h1>
+								<br/>
+								<p>Zobacz ofertę</p>
+							</div>
+						</a></h2>
+					</div>
+				</div>
 	</div>
 	<script src="comp.js"></script>
 	<script src="gallery.js"></script>

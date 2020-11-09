@@ -31,7 +31,7 @@
 		</div>
 		<ul>
 			<li><a href="index.php">Strona Główna</a></li>
-			<li><a href="dekoracje_sali.php">Oferta</a></li>
+			<li><a href="oferta.php">Oferta</a></li>
 			<li><a href="kontakt.php">Kontakt</a></li>
 		<ul>
 	</div>	
@@ -40,7 +40,9 @@
 		<ul>
 			<a href="dekoracje_kosciola.php"><li>Dekoracje kościoła</li></a>
 			<a href="dekoracje_sali.php"><li>Dekoracje sali</li></a>
-			<a href="akcesoria.php"><li>Akcesoria ślubne</li></a>
+			<a href="bukiety_slubne.php"><li>Bukiety ślubne</li></a>
+			<a href="sesja_plenerowa.php"><li>Sesja Plenerowa</li></a>
+			<a href="akcesoria.php"><li>Akcesoria Ślubne</li></a>
 		</ul>
 	</div>
 	
