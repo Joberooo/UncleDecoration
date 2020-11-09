@@ -50,7 +50,7 @@
 	<div id="kontener">
 		<div id="zawartosc">
 			<div id="tytul">
-				<h1>Dekoracje Sali</h1>
+				<h1>Sesja plenerowa</h1>
 			</div>
 			<section id="photos">
 				<div class="container">

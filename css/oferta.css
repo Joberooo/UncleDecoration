@@ -91,12 +91,15 @@ body
 	position: relative;
 	top: 150px;
 }
+#kontener #kontenerOferty #oferty{
+text-align:center;	
+}
 #kontener #kontenerOferty{
 	background: none;
 }
 #kontener #zawartosc{
 	width: 80%;
-	margin: 200px auto 0;
+	margin: 100px auto 0;
 }
 #kontener #zawartosc #tytul h1::after{
 	content: "";
@@ -106,7 +109,7 @@ body
 	display: block;
 }
 #kontener #zawartosc #zdjecia{
-	
+	text-align: center;
 }
 #kontener #zawartosc #zdjecia #zdjecie{
 	width: 25%;

@@ -52,10 +52,10 @@
 			<div id="oferty">
 				<div class="oferta">
 					<div class="element">
-						<img src="img2/oferta/akcesoria.jpg" />
-						<h2><a class="link" href="dekoracje_kosciola.php">
+						<img src="img2/oferta/akcesoria.jpg" width="400px"  height="350px"/>
+						<h2><a class="link" href="akcesoria.php">
 							<div class="content">
-								<h1>Dekoracje kościoła</h1>
+								<h1>Akcesoria ślubne</h1>
 								<br/>
 								<p>Zobacz ofertę</p>
 							</div>
@@ -64,7 +64,7 @@
 				</div>
 				<div class="oferta">
 					<div class="element">
-						<img src="img2/oferta/dekoracjasali.jpg" />
+						<img src="img2/oferta/dekoracjasali.jpg" width="400px" height="350px" />
 						<h2><a class="link" href="dekoracje_sali.php">
 							<div class="content">
 								<h1>Dekoracje sali</h1>
@@ -76,10 +76,22 @@
 				</div>
 				<div class="oferta">
 					<div class="element">
-						<img src="img2/oferta/sesjaplenerowa.jpg" />
-						<h2><a class="link" href="akcesoria.php">
+						<img src="img2/oferta/sesjaplenerowa.jpg" width="400px" height="350px" />
+						<h2><a class="link" href="sesja_plenerowa.php">
 							<div class="content">
-								<h1>Akcesoria ślubne</h1>
+								<h1>Sesja plenerowa</h1>
+								<br/>
+								<p>Zobacz ofertę</p>
+							</div>
+						</a></h2>
+						</div>
+					</div>
+				<div class="oferta">
+					<div class="element">
+						<img src="img2/oferta/bukiety.jpg"  width="400px" height="350px"/>
+						<h2><a class="link" href="bukiety_slubne.php">
+							<div class="content">
+								<h1>Bukiety ślubne</h1>
 								<br/>
 								<p>Zobacz ofertę</p>
 							</div>
@@ -88,35 +100,18 @@
 				</div>
 				<div class="oferta">
 					<div class="element">
-						<img src="img2/oferta/bukiety.jpg" />
-						<h2><a class="link" href="akcesoria.php">
+						<img src="img2/oferta/dekoracjakosicola.jpg" width="400px" height="350px"/>
+						<h2><a class="link" href="dekoracje_kosciola.php" >
 							<div class="content">
-								<h1>Akcesoria ślubne</h1>
+								<h1>Dekoracje kościoła</h1>
 								<br/>
 								<p>Zobacz ofertę</p>
 							</div>
 						</a></h2>
 					</div>
 				</div>
-				<div class="oferta">
-					<div class="element">
-						<img src="img2/oferta/dekoracjakosicola.jpg" />
-						<h2><a class="link" href="akcesoria.php">
-							<div class="content">
-								<h1>Akcesoria ślubne</h1>
-								<br/>
-								<p>Zobacz ofertę</p>
-							</div>
-						</a></h2>
-					</div>
+				</div>
+				</div>
 				</div>
 	</div>
-	<script src="comp.js"></script>
-	<script src="gallery.js"></script>
-	<script src="kolumny.js"></script>
-	<script>
-    (function ($) {
-      $(".gallery").gallery();
-    })(Comp);
-	</script>
 </body>
