@@ -64,7 +64,7 @@
 				</div>
 				<div class="oferta">
 					<div class="element">
-						<img src="img2/oferta/dekoracjaSali.jpg" />
+						<img src="img2/oferta/dekoracjasali.jpg" />
 						<h2><a class="link" href="dekoracje_sali.php">
 							<div class="content">
 								<h1>Dekoracje sali</h1>
@@ -76,7 +76,31 @@
 				</div>
 				<div class="oferta">
 					<div class="element">
-						<img src="img/bukietslubny2.jpg" />
+						<img src="img2/oferta/sesjaplenerowa.jpg" />
+						<h2><a class="link" href="akcesoria.php">
+							<div class="content">
+								<h1>Akcesoria ślubne</h1>
+								<br/>
+								<p>Zobacz ofertę</p>
+							</div>
+						</a></h2>
+					</div>
+				</div>
+				<div class="oferta">
+					<div class="element">
+						<img src="img2/oferta/bukiety.jpg" />
+						<h2><a class="link" href="akcesoria.php">
+							<div class="content">
+								<h1>Akcesoria ślubne</h1>
+								<br/>
+								<p>Zobacz ofertę</p>
+							</div>
+						</a></h2>
+					</div>
+				</div>
+				<div class="oferta">
+					<div class="element">
+						<img src="img2/oferta/dekoracjakosicola.jpg" />
 						<h2><a class="link" href="akcesoria.php">
 							<div class="content">
 								<h1>Akcesoria ślubne</h1>
